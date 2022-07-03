@@ -15,9 +15,15 @@ export default function Home() {
 
       <main>
         <h1 className="text-8xl uppercase">Course Plug</h1>
-        <video controls style={{ width: "400px" }}>
-          <source src="/1.mp4" type="video/mp4" />
-        </video>
+        <iframe
+          class="sproutvideo-player"
+          src="https://videos.sproutvideo.com/embed/069ed8b71d1de5c08f/ad6cfd02ad1ad87a"
+          width="630"
+          height="354"
+          frameborder="0"
+          allowfullscreen
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
       </main>
     </div>
   );
