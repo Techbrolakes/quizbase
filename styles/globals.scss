@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;700;800&display=swap");
+
+$primary-gradient: linear-gradient(to right, #ffe5a1, #bf841a, #ffcd74);
+
+@mixin text-linear() {
+  background: -webkit-linear-gradient(#ffe5a1, #bf841a, #ffcd74);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: "border-box";
+}
+
+.cinzel {
+  font-family: Cinzel, Montserrat;
+  @include text-linear();
+}
+.mont {
+  font-family: Montserrat;
+}

@@ -4,7 +4,14 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        background: "url('/Background.png')",
+      },
+    },
   },
-  plugins: [require("daisyui")],
+  corePlugins: {
+    aspectRatio: false,
+  },
+  plugins: [require("daisyui"), require("@tailwindcss/aspect-ratio")],
 };

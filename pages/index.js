@@ -1,4 +1,5 @@
 import Head from "next/head";
+import ReactPlayer from "react-player";
 
 export default function Home() {
   return (
@@ -9,7 +10,18 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="text-8xl font-bold italic capitalize">MAIN LAYOUTS</main>
+      <main>
+        <h1>Course Plug</h1>
+
+        <div className="flex gap-2">
+          <section>
+            <ReactPlayer url={"https://youtu.be/_0I4uzHfTf8"} />
+          </section>
+          <section>
+            <ReactPlayer url={"https://youtu.be/_0I4uzHfTf8"} />
+          </section>{" "}
+        </div>
+      </main>
     </div>
   );
 }
