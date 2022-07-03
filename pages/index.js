@@ -1,6 +1,9 @@
+import { Dialog } from "@headlessui/react";
 import Head from "next/head";
+import { useState } from "react";
 
 export default function Home() {
+  let [isOpen, setIsOpen] = useState(true);
   return (
     <div>
       <Head>
@@ -14,12 +17,20 @@ export default function Home() {
       </Head>
 
       <main>
-        <h1 className="text-8xl uppercase">Course Plug</h1>
+        <iframe
+          className="sproutvideo-player"
+          src="https://videos.sproutvideo.com/embed/a79ed8b71d1ce4c52e/79cbec35885693ac"
+          width="400"
+          height="224"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+
         <iframe
           className="sproutvideo-player"
           src="https://videos.sproutvideo.com/embed/069ed8b71d1de5c08f/ad6cfd02ad1ad87a"
-          width="630"
-          height="354"
+          width="400"
+          height="224"
+          allowfullscreen
           referrerpolicy="no-referrer-when-downgrade"
         ></iframe>
       </main>
