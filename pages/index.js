@@ -30,7 +30,6 @@ export default function Home() {
           src="https://videos.sproutvideo.com/embed/069ed8b71d1de5c08f/ad6cfd02ad1ad87a"
           width="400"
           height="224"
-          allowfullscreen
           referrerpolicy="no-referrer-when-downgrade"
         ></iframe>
       </main>
