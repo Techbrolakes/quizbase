@@ -13,7 +13,7 @@ export default function Home() {
       <main>
         <h1>Course Plug</h1>
 
-        <div className="flex gap-2">
+        <div className="block lg:flex gap-2">
           <section>
             <ReactPlayer url={"https://youtu.be/_0I4uzHfTf8"} />
           </section>
