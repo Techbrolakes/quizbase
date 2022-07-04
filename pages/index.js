@@ -9,7 +9,7 @@ const index = () => {
           <h1 className="text-4xl lg:text-7xl capitalize font-bold cinzel tracking-wider">
             courseplug
           </h1>
-          <p className="text-xl font-medium">
+          <p className="text-xl font-medium text-white">
             Courseplug is your ultimate solultion to getting access to premium
             tech udemy courses from top instructors
           </p>

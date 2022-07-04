@@ -10,7 +10,7 @@ const Courses = () => {
       <article className="flex justify-center lg:justify-start gap-8 items-center uppercase text-xl md:text-4xl font-bold">
         <h1 className="lin">Contribution</h1>
         <img src="/Line.png" alt="line" className="inline" />
-        <p className="text-sm md:text-xl font-light opacity-75">VIEW MORE</p>
+        <p className="text-sm md:text-xl font-light text-white">VIEW MORE</p>
       </article>
 
       <Swiper
@@ -36,7 +36,7 @@ const Courses = () => {
             spaceBetween: 40,
           },
           "@1.50": {
-            slidesPerView: 2,
+            slidesPerView: 3,
             spaceBetween: 50,
           },
         }}
