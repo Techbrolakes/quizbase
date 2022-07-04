@@ -1,4 +1,10 @@
+import BlockchainCourses from "../components/BlockchainCourses";
 import Courses from "../components/Courses";
+import FigmaCourses from "../components/FigmaCourses";
+import HtmlCourses from "../components/HtmlCourses";
+import JsCourses from "../components/JsCourses";
+import NativeCourses from "../components/NativeCourses";
+import ReactCourses from "../components/ReactCourses";
 import Layout from "../layouts/Layout";
 
 const index = () => {
@@ -27,12 +33,12 @@ const index = () => {
           </button>
         </div>
 
-        <Courses />
-        <Courses />
-        <Courses />
-        <Courses />
-        <Courses />
-        <Courses />
+        <FigmaCourses />
+        <HtmlCourses />
+        <JsCourses />
+        <ReactCourses />
+        <BlockchainCourses />
+        <NativeCourses />
       </section>
     </Layout>
   );

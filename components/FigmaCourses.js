@@ -4,11 +4,11 @@ import { Pagination, Autoplay } from "swiper";
 // Import Swiper styles
 import "swiper/css";
 
-const Courses = () => {
+const FigmaCourses = () => {
   return (
     <div className="py-12 space-y-8">
       <article className="flex justify-center lg:justify-start gap-8 items-center uppercase text-xl md:text-4xl font-bold">
-        <h1 className="lin">Contribution</h1>
+        <h1 className="lin">FIGMA</h1>
         <img src="/Line.png" alt="line" className="inline" />
         <p className="text-sm md:text-xl font-light text-white">VIEW MORE</p>
       </article>
@@ -19,7 +19,7 @@ const Courses = () => {
           clickable: true,
         }}
         autoplay={{
-          delay: 1500,
+          delay: 1400,
           disableOnInteraction: false,
         }}
         breakpoints={{
@@ -46,7 +46,7 @@ const Courses = () => {
           <div>
             <iframe
               className="sproutvideo-player"
-              src="https://videos.sproutvideo.com/embed/069ed8b71d1de5c08f/ad6cfd02ad1ad87a"
+              src="https://videos.sproutvideo.com/embed/a79ed8b71819eacb2e/1fb0980ac5481fef"
               width="400"
               height="224"
               referrerpolicy="no-referrer-when-downgrade"
@@ -57,7 +57,7 @@ const Courses = () => {
           <div>
             <iframe
               className="sproutvideo-player"
-              src="https://videos.sproutvideo.com/embed/069ed8b71d1de5c08f/ad6cfd02ad1ad87a"
+              src="https://videos.sproutvideo.com/embed/ac9ed8b7181ae0c525/45a228d6315395b1"
               width="400"
               height="224"
               referrerpolicy="no-referrer-when-downgrade"
@@ -84,4 +84,4 @@ const Courses = () => {
   );
 };
 
-export default Courses;
+export default FigmaCourses;

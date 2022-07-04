@@ -4,11 +4,11 @@ import { Pagination, Autoplay } from "swiper";
 // Import Swiper styles
 import "swiper/css";
 
-const Courses = () => {
+const ReactCourses = () => {
   return (
     <div className="py-12 space-y-8">
       <article className="flex justify-center lg:justify-start gap-8 items-center uppercase text-xl md:text-4xl font-bold">
-        <h1 className="lin">Contribution</h1>
+        <h1 className="lin">REACT.JS</h1>
         <img src="/Line.png" alt="line" className="inline" />
         <p className="text-sm md:text-xl font-light text-white">VIEW MORE</p>
       </article>
@@ -19,7 +19,7 @@ const Courses = () => {
           clickable: true,
         }}
         autoplay={{
-          delay: 1500,
+          delay: 900,
           disableOnInteraction: false,
         }}
         breakpoints={{
@@ -77,11 +77,11 @@ const Courses = () => {
         </SwiperSlide>
       </Swiper>
 
-      <button className="ml-4 btn-fill rounded-md shadow-lg">
+      <button className="ml-4 btn-fill rounded-md shadow-lg text-white">
         Get Access To Premium Courses
       </button>
     </div>
   );
 };
 
-export default Courses;
+export default ReactCourses;
