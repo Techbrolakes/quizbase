@@ -2,7 +2,7 @@ import Head from "next/head";
 
 const Layout = ({ children }) => {
   return (
-    <div className="bg-background">
+    <div className="background text-white container">
       <Head>
         <title>CoursePlug - Premium Access to amazing tech courses</title>
         <meta name="description" content="Get Access To Premium Tech Courses" />
@@ -13,7 +13,7 @@ const Layout = ({ children }) => {
         />
       </Head>
 
-      <main>{children}</main>
+      <main> {children}</main>
     </div>
   );
 };

@@ -1,29 +1,38 @@
-import { Button } from "flowbite-react";
+import Courses from "../components/Courses";
 import Layout from "../layouts/Layout";
 
 const index = () => {
   return (
     <Layout>
-      <section>
+      <section className="space-y-14">
         <div className=" flex flex-col justify-center text-center items-center space-y-4 mont p-4">
-          <h1 className="text-7xl capitalize font-bold cinzel">
-            Welcome to courseplug
+          <h1 className="text-4xl lg:text-7xl capitalize font-bold cinzel tracking-wider">
+            courseplug
           </h1>
-          <p>
+          <p className="text-xl font-medium">
             Courseplug is your ultimate solultion to getting access to premium
             tech udemy courses from top instructors
           </p>
           <div>
             <iframe
-              class="sproutvideo-player"
+              className="sproutvideo-player"
               src="https://videos.sproutvideo.com/embed/069ed8b71d1de5c08f/ad6cfd02ad1ad87a"
               width="400"
               height="224"
               referrerpolicy="no-referrer-when-downgrade"
             ></iframe>
           </div>
-          <button className="bg-blue-600 py-4 px-2">Get Access Today</button>
+          <button className="ml-4 btn-fill rounded-md shadow-lg">
+            Get Access To Premium Courses
+          </button>
         </div>
+
+        <Courses />
+        <Courses />
+        <Courses />
+        <Courses />
+        <Courses />
+        <Courses />
       </section>
     </Layout>
   );

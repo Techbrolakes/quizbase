@@ -27,3 +27,43 @@ $primary-gradient: linear-gradient(to right, #ffe5a1, #bf841a, #ffcd74);
 .mont {
   font-family: Montserrat;
 }
+::-webkit-scrollbar {
+  width: 0.5rem;
+  background-color: #000;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #ffcd74;
+}
+.btn-fill {
+  background-image: $primary-gradient;
+  color: #0a0c10;
+  padding: 0.5rem 1.5rem;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 100px;
+
+  &:hover {
+    background-image: linear-gradient(to right, #ffcd74, #bf841a, #ffe5a1);
+    color: #0a0c10;
+  }
+
+  @media screen and (max-width: 768px) {
+    padding: 0.5rem 1rem;
+    font-size: 14px;
+    font-weight: 500;
+  }
+}
+.lin {
+  @include text-linear();
+}
+.container {
+  padding: 0 3rem;
+
+  @media screen and (max-width: 768px) {
+    padding: 0 1rem;
+  }
+  @media screen and (min-width: 769px) and (max-width: 992px) {
+    padding: 0 2rem;
+  }
+}
