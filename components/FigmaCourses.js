@@ -68,7 +68,7 @@ const FigmaCourses = () => {
           <div>
             <iframe
               className="sproutvideo-player"
-              src="https://videos.sproutvideo.com/embed/069ed8b71d1de5c08f/ad6cfd02ad1ad87a"
+              src="https://videos.sproutvideo.com/embed/069ed8b7181ae1c68f/44af2c8efada0fd7"
               width="400"
               height="224"
               referrerpolicy="no-referrer-when-downgrade"
