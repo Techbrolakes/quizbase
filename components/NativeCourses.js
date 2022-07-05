@@ -46,7 +46,7 @@ const NativeCourses = () => {
           <div>
             <iframe
               className="sproutvideo-player"
-              src="https://videos.sproutvideo.com/embed/069ed8b71d1de5c08f/ad6cfd02ad1ad87a"
+              src="https://videos.sproutvideo.com/embed/119ed8b71b1ce0c998/e0333639403e37fd"
               width="400"
               height="224"
               referrerpolicy="no-referrer-when-downgrade"
@@ -57,18 +57,18 @@ const NativeCourses = () => {
           <div>
             <iframe
               className="sproutvideo-player"
-              src="https://videos.sproutvideo.com/embed/069ed8b71d1de5c08f/ad6cfd02ad1ad87a"
+              src="https://videos.sproutvideo.com/embed/a79ed8b71b1ce0c72e/56ac3073241caf9f"
               width="400"
               height="224"
               referrerpolicy="no-referrer-when-downgrade"
             ></iframe>
           </div>
-        </SwiperSlide>{" "}
+        </SwiperSlide>
         <SwiperSlide className="hidden lg:block">
           <div>
             <iframe
               className="sproutvideo-player"
-              src="https://videos.sproutvideo.com/embed/069ed8b71d1de5c08f/ad6cfd02ad1ad87a"
+              src="https://videos.sproutvideo.com/embed/a79ed8b71d1ce4c52e/79cbec35885693ac"
               width="400"
               height="224"
               referrerpolicy="no-referrer-when-downgrade"

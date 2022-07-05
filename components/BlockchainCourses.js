@@ -46,7 +46,7 @@ const BlockchainCourses = () => {
           <div>
             <iframe
               className="sproutvideo-player"
-              src="https://videos.sproutvideo.com/embed/069ed8b71d1de5c08f/ad6cfd02ad1ad87a"
+              src="https://videos.sproutvideo.com/embed/4d9ed8b71b13ebc1c4/d0069dad3f707e5e"
               width="400"
               height="224"
               referrerpolicy="no-referrer-when-downgrade"
@@ -57,7 +57,7 @@ const BlockchainCourses = () => {
           <div>
             <iframe
               className="sproutvideo-player"
-              src="https://videos.sproutvideo.com/embed/069ed8b71d1de5c08f/ad6cfd02ad1ad87a"
+              src="https://videos.sproutvideo.com/embed/ea9ed8b71b13ebc263/884850148f5d291a"
               width="400"
               height="224"
               referrerpolicy="no-referrer-when-downgrade"
@@ -68,7 +68,7 @@ const BlockchainCourses = () => {
           <div>
             <iframe
               className="sproutvideo-player"
-              src="https://videos.sproutvideo.com/embed/069ed8b71d1de5c08f/ad6cfd02ad1ad87a"
+              src="https://videos.sproutvideo.com/embed/449ed8b71b13ebcccd/3357fcdefa450c8a"
               width="400"
               height="224"
               referrerpolicy="no-referrer-when-downgrade"

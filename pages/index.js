@@ -24,47 +24,73 @@ const index = () => {
             Courseplug is your ultimate solultion to getting access to premium
             tech udemy courses from top instructors
           </p>
-          <Swiper
-            className="grid grid-cols-3 gap-12 cursor-pointer mySwiper"
-            pagination={{
-              clickable: true,
-            }}
-            autoplay={{
-              delay: 1400,
-              disableOnInteraction: false,
-            }}
-            breakpoints={{
-              "@0.00": {
-                slidesPerView: 1,
-                spaceBetween: 30,
-              },
-              "@0.75": {
-                slidesPerView: 1,
-                spaceBetween: 30,
-              },
-              "@1.00": {
-                slidesPerView: 3,
-                spaceBetween: 40,
-              },
-              "@1.50": {
-                slidesPerView: 3,
-                spaceBetween: 50,
-              },
-            }}
-            modules={[Pagination, Autoplay]}
-          >
-            <SwiperSlide>
-              <div>
-                <iframe
-                  className="sproutvideo-player"
-                  src="https://videos.sproutvideo.com/embed/069ed8b71d1de5c08f/ad6cfd02ad1ad87a"
-                  width="400"
-                  height="224"
-                  referrerpolicy="no-referrer-when-downgrade"
-                ></iframe>
-              </div>s
-            </SwiperSlide>
-          </Swiper>
+          <div className="py-8">
+            <Swiper
+              className="grid grid-cols-3 gap-12 cursor-pointer mySwiper py-8"
+              pagination={{
+                clickable: true,
+              }}
+              autoplay={{
+                delay: 1400,
+                disableOnInteraction: false,
+              }}
+              breakpoints={{
+                "@0.00": {
+                  slidesPerView: 1,
+                  spaceBetween: 30,
+                },
+                "@0.75": {
+                  slidesPerView: 1,
+                  spaceBetween: 30,
+                },
+                "@1.00": {
+                  slidesPerView: 3,
+                  spaceBetween: 40,
+                },
+                "@1.50": {
+                  slidesPerView: 3,
+                  spaceBetween: 50,
+                },
+              }}
+              modules={[Pagination, Autoplay]}
+            >
+              <SwiperSlide>
+                <div>
+                  <iframe
+                    className="sproutvideo-player"
+                    src="https://videos.sproutvideo.com/embed/709ed8b71b13ecc7f9/c06d27e2853f981c"
+                    width="400"
+                    height="224"
+                    referrerpolicy="no-referrer-when-downgrade"
+                  ></iframe>
+                </div>
+              </SwiperSlide>
+
+              <SwiperSlide className="hidden lg:block">
+                <div>
+                  <iframe
+                    className="sproutvideo-player"
+                    src="https://videos.sproutvideo.com/embed/4d9ed8b71b13ebc1c4/d0069dad3f707e5e"
+                    width="400"
+                    height="224"
+                    referrerpolicy="no-referrer-when-downgrade"
+                  ></iframe>
+                </div>
+              </SwiperSlide>
+
+              <SwiperSlide className="hidden lg:block">
+                <div>
+                  <iframe
+                    className="sproutvideo-player"
+                    src="https://videos.sproutvideo.com/embed/069ed8b71d1de5c08f/ad6cfd02ad1ad87a"
+                    width="400"
+                    height="224"
+                    referrerpolicy="no-referrer-when-downgrade"
+                  ></iframe>
+                </div>
+              </SwiperSlide>
+            </Swiper>
+          </div>
 
           <button className="ml-4 btn-fill rounded-md shadow-lg">
             Get Access To Premium Courses

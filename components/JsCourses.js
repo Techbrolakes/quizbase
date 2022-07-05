@@ -46,7 +46,7 @@ const JsCourses = () => {
           <div>
             <iframe
               className="sproutvideo-player"
-              src="https://videos.sproutvideo.com/embed/069ed8b71d1de5c08f/ad6cfd02ad1ad87a"
+              src="https://videos.sproutvideo.com/embed/d39ed8b71b13e8c45a/d01ef01bb32284e4"
               width="400"
               height="224"
               referrerpolicy="no-referrer-when-downgrade"
@@ -68,7 +68,7 @@ const JsCourses = () => {
           <div>
             <iframe
               className="sproutvideo-player"
-              src="https://videos.sproutvideo.com/embed/069ed8b71d1de5c08f/ad6cfd02ad1ad87a"
+              src="https://videos.sproutvideo.com/embed/449ed8b71b13efc8cd/6477604cc535cc5f"
               width="400"
               height="224"
               referrerpolicy="no-referrer-when-downgrade"
