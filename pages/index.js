@@ -103,6 +103,32 @@ const index = () => {
         <ReactCourses />
         <BlockchainCourses />
         <NativeCourses />
+
+        <div className="space-y-4 flex flex-col justify-center items-center text-center">
+          <article className="flex justify-center gap-8 items-center uppercase text-xl md:text-4xl font-bold">
+            <h1 className="lin">How CoursePlug Works</h1>
+          </article>
+
+          <p className="text-base text-white">
+            Courseplug offers you access to top tech courses from top industry
+            leading instructors like mosh hamedani, angela yu, Academind
+            (maximilian schwarzmuller) and many others. Our courses are stored
+            on a google drive meaning you get access to our courses immediately.
+            Courses range from HTML & CSS, JAVASCRIPT , DOCKER , PYTHON ,
+            REACT.JS , NEXT.JS , FLUTTER, REACT NATIVE, BLOCKCHAIN, UI.UX
+            DESIGN, REDUX, TYPESCRIPT, VUE JS , NODE JS, GOLANG AND MUCH MORE
+          </p>
+          <h6>LEARN CODING THE RIGHT WAY</h6>
+          <a
+            href="https://wa.me/+2349057791158?text=Hi,%20I%20Want%20Access%20Into%20The%20Drive"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button className="ml-4 btn-fill rounded-md shadow-lg text-white">
+              Get Access To Premium Courses
+            </button>
+          </a>
+        </div>
       </section>
     </Layout>
   );

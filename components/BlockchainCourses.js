@@ -77,9 +77,15 @@ const BlockchainCourses = () => {
         </SwiperSlide>
       </Swiper>
 
-      <button className="ml-4 btn-fill rounded-md shadow-lg">
-        Get Access To Premium Courses
-      </button>
+      <a
+        href="https://wa.me/+2349057791158?text=Hi,%20I%20Want%20Access%20Into%20The%20Drive"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <button className="ml-4 btn-fill rounded-md shadow-lg text-white">
+          Get Access To Premium Courses
+        </button>
+      </a>
     </div>
   );
 };
