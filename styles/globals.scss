@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
 
 $primary-gradient: linear-gradient(to right, #ffe5a1, #bf841a, #ffcd74);
 
@@ -25,7 +26,7 @@ $primary-gradient: linear-gradient(to right, #ffe5a1, #bf841a, #ffcd74);
   @include text-linear();
 }
 .mont {
-  font-family: Montserrat;
+  font-family: "Inter", sans-serif;
 }
 ::-webkit-scrollbar {
   width: 0.5rem;
