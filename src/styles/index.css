@@ -120,12 +120,3 @@
 }
 
 
-@layer components{
-  .list-item{
-    @apply text-sm lg:text-base font-medium tracking-wide leading-relaxed font-cabin
-  }
-  
-  .start-btn{
-    @apply mx-auto px-12 font-cabin text-base block bg-blue-900 hover:bg-blue-800 transition-all duration-200 ease-linear hover:scale-105 hover:-rotate-2 font-bold;
-  }
-}

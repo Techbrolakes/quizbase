@@ -19,10 +19,12 @@ const Intro: React.FC = () => {
                <div className="w-5/6 lg:w-3/4 mx-auto">
                   {GAME_RULES.map((rule, i) => (
                      <ul key={i} className="list-disc">
-                        <li className="my-6 list-item">{rule}</li>
+                        <li className="my-6 text-sm lg:text-base font-medium tracking-wide leading-relaxed font-cabin">{rule}</li>
                      </ul>
                   ))}
-                  <Button className="mt-6 start-quiz">Start Quiz</Button>
+                  <Button className="mx-auto px-12 mt-6 bg-blue-900 hover:bg-blue-800 transition-all duration-200 ease-linear hover:scale-105 hover:-rotate-2 font-cabin font-bold text-base block">
+                     Start Quiz
+                  </Button>
                </div>
             </article>
          </section>
