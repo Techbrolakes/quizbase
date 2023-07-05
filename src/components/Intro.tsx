@@ -8,7 +8,7 @@ const { GAME_RULES } = SCREEN_TEXTS;
 
 const Intro: React.FC = () => {
    return (
-      <div className="flex flex-col items-center font-charm pt-4">
+      <div className="flex flex-col items-center justify-center lg:justify-start font-charm pt-4">
          <section className="bg-slate-800 bg-opacity-30 w-[95vw] lg:w-[50vw] py-8 px-2 lg:px-5 rounded-md">
             <article className=" space-y-12">
                <div className="space-y-6">
