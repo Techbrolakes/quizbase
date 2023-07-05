@@ -2,37 +2,33 @@ import React from 'react';
 import Lottie from 'lottie-react';
 import QuizLogo from '@/assets/animations/quizlogo.json';
 import { Button } from '@/baseui/ui/button';
-import { motion } from 'framer-motion';
+import SCREEN_TEXTS from './constants';
+
+const { GAME_RULES } = SCREEN_TEXTS;
 
 const Intro: React.FC = () => {
    return (
-      <motion.div
-         key={'countdown'}
-         variants={{
-            initial: {
-               background: '#413FC3',
-               clipPath: 'circle(0% at 50% 50%)',
-            },
-            animate: {
-               background: '#09090B',
-               clipPath: 'circle(100% at 50% 50%)',
-            },
-         }}
-         initial="initial"
-         animate="animate"
-         exit="exit"
-         transition={{ duration: 0.5 }}
-         className="flex flex-col justify-center items-center min-h-screen font-charm "
-      >
-         <section className="bg-slate-800 bg-opacity-30 h-[90vh] w-[85vw] lg:w-[50vw] p-5 rounded-md">
-            <article className="text-center space-y-10">
-               <Lottie animationData={QuizLogo} className="w-1/6 mx-auto" />
-               <h1 className="font-bold text-5xl font-charm">Quizbase</h1>
-               <h5 className="text-base font-medium">How to play the game</h5>
-               <Button>Start</Button>
+      <div className="flex flex-col justify-center items-center min-h-screen font-charm ">
+         <section className="bg-slate-800 bg-opacity-30 w-[85vw] lg:w-[50vw] py-8 px-5 rounded-md">
+            <article className=" space-y-10">
+               <div className="space-y-6">
+                  <Lottie animationData={QuizLogo} className="w-1/6 mx-auto" />
+                  <h1 className="font-bold text-5xl text-center font-charm">Quizbase</h1>
+               </div>
+
+               <div className="w-5/6 lg:w-3/4 mx-auto">
+                  {GAME_RULES.map((rule, i) => (
+                     <ul key={i} className="list-disc">
+                        <li className="my-6 text-sm lg:text-base font-medium tracking-wide leading-relaxed font-cabin">{rule}</li>
+                     </ul>
+                  ))}
+                  <Button className="mx-auto bg-blue-900 hover:bg-blue-800 transition-all duration-200 ease-linear hover:scale-105 hover:-rotate-2 font-cabin font-bold text-base w-1/3 block">
+                     Start Quiz
+                  </Button>
+               </div>
             </article>
          </section>
-      </motion.div>
+      </div>
    );
 };
 
